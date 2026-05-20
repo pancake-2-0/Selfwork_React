@@ -10,3 +10,21 @@
   color: blueviolet;
   font-size: 50px;
 }
+
+#custom_nav {
+  background-color: gray;
+  height: 50px;
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#custom_header {
+  background-color: lightgray;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
