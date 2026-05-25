@@ -1,13 +1,13 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Navbar from "./components/Navbar.jsx";
 import Header from "./components/Header.jsx";
 import List from "./components/List.jsx";
 import Counter from "./components/Counter.jsx";
 import Form from "./components/Form.jsx";
 import Main from "./components/Main.jsx";
-import Section from "./Section.jsx";
-import Input from "./Input.jsx";
-import Button from "./Button.jsx";
+import Section from "./components/Section.jsx";
+import Input from "./components/Input.jsx";
+import Button from "./components/Button.jsx";
 
 function App() {
   const nameList = ["Alice", "Bob", "Charlie"];
