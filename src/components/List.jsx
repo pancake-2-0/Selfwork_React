@@ -1,9 +1,9 @@
-export default function List({ names }) {
+import Items from "./Items";
+
+export default function List({ children }) {
   return (
-    <ul>
-      {names.map((name) => {
-        return <li key={name}>{name}</li>;
-      })}
-    </ul>
+    <>
+      <ul>{children}</ul>
+    </>
   );
 }
