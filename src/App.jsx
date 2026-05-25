@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Navbar from "./components/Navbar.jsx";
 import Header from "./components/Header.jsx";
 import List from "./components/List.jsx";
@@ -8,6 +8,7 @@ import Main from "./components/Main.jsx";
 import Section from "./components/Section.jsx";
 import Input from "./components/Input.jsx";
 import Button from "./components/Button.jsx";
+import LoadingData from "./components/LoadingData.jsx";
 
 function App() {
   const nameList = ["Alice", "Bob", "Charlie"];
@@ -75,6 +76,8 @@ function App() {
           <p>Email: {submittedData.mail}</p>
         </div>
       )}
+
+      <LoadingData />
 
       <h1 className="title">Hello World</h1>
       <input id="test" type="text" />

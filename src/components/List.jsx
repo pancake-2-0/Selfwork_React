@@ -1,5 +1,3 @@
-import Items from "./Items";
-
 export default function List({ children }) {
   return (
     <>
